@@ -1,0 +1,325 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shubham.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:10:5-80
+14-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:11:5-79
+15-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:13:5-66
+16-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:13:22-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:12:5-64
+17-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:12:22-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:22:5-79
+18-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:22:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:24:5-68
+19-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:26:22-79
+21
+22    <application
+22-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:15:5-38:19
+23        android:name="io.flutter.app.FlutterApplication"
+23-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:17:9-57
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\fa6f4e21abebe2d79db3175d07d54142\core-1.2.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:19:9-43
+27        android:label="chatapp"
+27-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:18:9-32
+28        android:requestLegacyExternalStorage="true" >
+28-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:16:9-52
+29        <activity
+29-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:21:9-32:20
+30            android:name="com.muhammadali.telegramchatapp.MainActivity"
+30-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:22:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:25:13-163
+32            android:hardwareAccelerated="true"
+32-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:26:13-47
+33            android:launchMode="singleTop"
+33-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:23:13-43
+34            android:theme="@style/LaunchTheme"
+34-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:24:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:27:13-55
+36            <intent-filter>
+36-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:28:13-31:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:29:17-68
+37-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:30:17-76
+39-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:30:27-74
+40            </intent-filter>
+41        </activity>
+42        <!--
+43             Don't delete the meta-data below.
+44             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+45        -->
+46        <meta-data
+46-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:35:9-37:33
+47            android:name="flutterEmbedding"
+47-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:36:13-44
+48            android:value="2" />
+48-->C:\Users\Ultron\Desktop\flutter_chat_app\android\app\src\main\AndroidManifest.xml:37:13-30
+49
+50        <service
+50-->[:firebase_storage] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[:firebase_storage] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\af8e2ca0ef0cbf2cbbb50d6de127c857\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:37:13-37
+54            <meta-data
+54-->[:firebase_storage] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+55                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+55-->[:firebase_storage] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:firebase_storage] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+57            <meta-data
+57-->[:cloud_firestore] C:\Users\Ultron\Desktop\flutter_chat_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+58-->[:cloud_firestore] C:\Users\Ultron\Desktop\flutter_chat_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:cloud_firestore] C:\Users\Ultron\Desktop\flutter_chat_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+60            <meta-data
+60-->[:firebase_auth] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+61-->[:firebase_auth] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_auth] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[:firebase_core] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+64-->[:firebase_core] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:firebase_core] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+66            <meta-data
+66-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+67-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:38:13-40:85
+70                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+70-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:39:17-119
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:40:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:32:13-34:85
+73                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+73-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:33:17-96
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:34:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\e95a399e5f0ca470eeeea3e65eb0b585\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+76                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+76-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\e95a399e5f0ca470eeeea3e65eb0b585\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\e95a399e5f0ca470eeeea3e65eb0b585\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-installations:16.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\2b9da2e3c94a9c11460f26d62c5aedda\firebase-installations-16.2.0\AndroidManifest.xml:17:13-19:85
+79                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+79-->[com.google.firebase:firebase-installations:16.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\2b9da2e3c94a9c11460f26d62c5aedda\firebase-installations-16.2.0\AndroidManifest.xml:18:17-127
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-installations:16.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\2b9da2e3c94a9c11460f26d62c5aedda\firebase-installations-16.2.0\AndroidManifest.xml:19:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ef2e54251b3c6b315468f1222b1803bc\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+82                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+82-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ef2e54251b3c6b315468f1222b1803bc\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ef2e54251b3c6b315468f1222b1803bc\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ce5e47d669ddcfc152d8399ac85f2169\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ce5e47d669ddcfc152d8399ac85f2169\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ce5e47d669ddcfc152d8399ac85f2169\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+90        </service>
+91
+92        <provider
+92-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+93            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+93-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+94            android:authorities="com.shubham.chatapp.flutter.image_provider"
+94-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+95            android:exported="false"
+95-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+96            android:grantUriPermissions="true" >
+96-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+97            <meta-data
+97-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+99                android:resource="@xml/flutter_image_picker_file_paths" />
+99-->[:image_picker] C:\Users\Ultron\Desktop\flutter_chat_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+100        </provider>
+101
+102        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+102-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+102-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+103            <intent-filter>
+103-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+104                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+104-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+104-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+105            </intent-filter>
+106        </service>
+107        <!--
+108             FirebaseMessagingService performs security checks at runtime,
+109             but set to not exported to explicitly avoid allowing another app to call it.
+110        -->
+111        <service
+111-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:28:9-34:19
+112            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+112-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:29:13-82
+113            android:exported="false" >
+113-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\ea4bb82b6bedf47ab101eaa720dba912\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:30:13-37
+114            <intent-filter android:priority="-500" >
+114-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+115                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+115-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+115-->[:firebase_messaging] C:\Users\Ultron\Desktop\flutter_chat_app\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+116            </intent-filter>
+117        </service>
+118
+119        <receiver
+119-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:37:9-44:20
+120            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+120-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:38:13-78
+121            android:exported="true"
+121-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:39:13-36
+122            android:permission="com.google.android.c2dm.permission.SEND" >
+122-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:40:13-73
+123            <intent-filter>
+123-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:41:13-43:29
+124                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+124-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:42:17-81
+124-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\146ca7e4318cdf1390c300c9c4df6c2f\firebase-iid-20.1.4\AndroidManifest.xml:42:25-78
+125            </intent-filter>
+126        </receiver>
+127
+128        <activity
+128-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+129            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+129-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+133            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+133-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\8cc25cea61b443d9a14e7e5a169a3eff\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\af8e2ca0ef0cbf2cbbb50d6de127c857\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\af8e2ca0ef0cbf2cbbb50d6de127c857\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+138            android:authorities="com.shubham.chatapp.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\af8e2ca0ef0cbf2cbbb50d6de127c857\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\af8e2ca0ef0cbf2cbbb50d6de127c857\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\af8e2ca0ef0cbf2cbbb50d6de127c857\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+141
+142        <activity
+142-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+143            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+143-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+144            android:excludeFromRecents="true"
+144-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+147        <!--
+148            Service handling Google Sign-In user revocation. For apps that do not integrate with
+149            Google Sign-In, this service will never be started.
+150        -->
+151        <service
+151-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+152            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+152-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+153            android:exported="true"
+153-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+154            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+154-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\d82ffc7267eedd7455c44a47f4275b44\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\5b158abc2263076f387a9dedc11ef3a4\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\5b158abc2263076f387a9dedc11ef3a4\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\5b158abc2263076f387a9dedc11ef3a4\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\5b158abc2263076f387a9dedc11ef3a4\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\48b7cd791cdc7054130f3bfa199613fd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\48b7cd791cdc7054130f3bfa199613fd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\48b7cd791cdc7054130f3bfa199613fd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+164
+165        <service
+165-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\69a343fae04c290ebcd4420f4533827c\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+166            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+166-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\69a343fae04c290ebcd4420f4533827c\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+167            android:exported="false" >
+167-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\69a343fae04c290ebcd4420f4533827c\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+168            <meta-data
+168-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\69a343fae04c290ebcd4420f4533827c\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+169                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+169-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\69a343fae04c290ebcd4420f4533827c\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+170                android:value="cct" />
+170-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\69a343fae04c290ebcd4420f4533827c\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+171        </service>
+172        <service
+172-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+173-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+174            android:exported="false"
+174-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" >
+175-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+176        </service>
+177
+178        <receiver
+178-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+179            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+180            android:exported="false" />
+180-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ultron\.gradle\caches\transforms-2\files-2.1\91efd35553d6d129ba776e62362b4536\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+181    </application>
+182
+183</manifest>
